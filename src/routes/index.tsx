@@ -25,6 +25,7 @@ import heroImage from "../assets/roofing-hero.jpg";
 import projectDetail from "../assets/project-detail.jpg";
 import projectCraft from "../assets/project-craft.jpg";
 import projectHome from "../assets/project-home.jpg";
+import andrewOwner from "../assets/andrew-owner.jpg.asset.json";
 import compareOneBefore from "../assets/compare-one-before.jpg";
 import compareOneAfter from "../assets/compare-one-after.jpg";
 import compareTwoBefore from "../assets/compare-two-before.jpg";

@@ -25,6 +25,7 @@ import heroImage from "../assets/roofing-hero.jpg";
 import projectDetail from "../assets/project-detail.jpg";
 import projectCraft from "../assets/project-craft.jpg";
 import projectHome from "../assets/project-home.jpg";
+import andrewOwner from "../assets/andrew-owner.jpg.asset.json";
 import compareOneBefore from "../assets/compare-one-before.jpg";
 import compareOneAfter from "../assets/compare-one-after.jpg";
 import compareTwoBefore from "../assets/compare-two-before.jpg";
@@ -121,7 +122,7 @@ function TrustStrip() {
 function About() {
   return <section id="about" className="section about"><div className="wrap about-grid">
     <div className="owner-portrait reveal">
-      <div className="owner-placeholder"><HardHat size={54} strokeWidth={1.2} /><strong>ANDREW</strong><span>Owner portrait ready to add</span></div>
+      <div className="owner-photo"><img src={andrewOwner.url} alt="Andrew, owner of Andrew The Roofer" loading="eager" /></div>
       <div className="image-index">01 <span>/ OWNER</span></div>
     </div>
     <div className="about-copy reveal"><Eyebrow>MEET ANDREW</Eyebrow><h2>A personal approach to professional roofing.</h2><div className="accent-rule" /><p className="lead">Andrew The Roofer is built around straightforward service, thoughtful workmanship and treating every property with respect.</p><p>This space is ready for Andrew’s own story—an opportunity to share the values behind the work and help customers know exactly who they are inviting to care for their roof.</p><Button variant="light" onClick={() => scrollTo("contact")}>TALK TO ANDREW <ArrowRight size={17} /></Button></div>
